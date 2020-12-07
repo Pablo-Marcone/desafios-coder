@@ -1,0 +1,175 @@
+/* Home */
+
+html {
+	background: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: red;
+	height: 768px;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px; 
+}
+
+img {
+	height: 300px;
+	width: 300px;
+}
+
+#titulo {
+	font-family: raleway;
+	color: #2AFD70;
+	height: 30px;
+	width: 250px;
+	font-size: 150%;
+	position: center;
+	display: block;
+	background: black;
+	padding: 10px;
+	text-align: center;
+}
+
+nav {
+	display: inline;
+	background: blue;
+}
+ul {
+	height: 30px;
+	width: 1000px;
+}
+
+nav ul a {
+	font-family: raleway;
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 100%;
+	padding: 10px;
+	background-color: blue;
+}
+
+.page {
+	color: #2AFD70;
+	font-weight: bold;
+}
+
+.subtitulo {
+	font-family: raleway;
+	color: #2AFD70;
+	font-size: 150%;
+}
+
+.parrafo {
+	font-family: raleway;
+	color: #ffffff;
+	line-height: 1.6;
+}
+
+.resaltar {
+	font-weight: bold;
+	color: #2AFD70;
+	}
+
+footer {
+	font-family: raleway;
+	color: #000000;
+	height: 100px;
+	width: 1024px;
+	background-color: #2AFD70;
+}
+
+footer img {
+	height: 10px;
+	width: 10px;
+}
+
+/* Nosotros */
+
+.nosotros {
+	width: 50%;
+	height: 250px;
+}
+
+.nosotros img {
+	width: 50px;
+	height: 50px;
+}
+
+/* Servicios */
+
+.servicios {
+	width: 30%;
+	height: 150px;
+}
+
+.menuServicios {
+	width: 1000px;
+	height: 200px;
+}
+
+.menuServicios div {
+	display: inline-block;
+}
+
+.menuServicios div div {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+
+.menuServicios img {
+ width: 150px;
+ height: 150px;
+}
+
+.menuServicios a {
+	display: block;
+	text-decoration: none;
+	font-family: raleway;
+	color: #ffffff;
+}
+
+/* Productos */
+
+.productos {
+	width: 1000px;
+	height: 200px;
+}
+
+.productos div {
+	display: inline-block;
+}
+
+.productos div div {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+}
+
+.productos img {
+ width: 100px;
+ height: 100px;
+}
+
+.productos a {
+	display: block;
+	text-decoration: none;
+	font-family: raleway;
+	font-weight: bold;
+	color: #2AFD70;
+}
+
+.productos p {
+	color: #ffffff;
+	font-family: raleway; 
+}
+
+/* Contacto */
+
+form {
+	color: #2AFD70;
+	font-family: raleway;
+}
+

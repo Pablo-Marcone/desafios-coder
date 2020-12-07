@@ -1,0 +1,38 @@
+body {
+	background-color: #000000;
+}
+#titulo {
+	text-decoration: none;
+	font-family: raleway;
+	color: #2AFD70;
+	font-size: 300%;
+}
+
+nav ul a {
+	font-family: raleway;
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 150%;
+	padding: 10px;
+}
+
+.subtitulo {
+	font-family: raleway;
+	color: #2AFD70;
+	font-size: 150%;
+}
+
+.parrafo {
+	font-family: raleway;
+	color: #ffffff;
+	line-height: 1.6;
+}
+
+.resaltar {
+	font-weight: bold;
+	color: #2AFD70;
+	}
+
+table {
+	border-color: #2AFD70;
+}

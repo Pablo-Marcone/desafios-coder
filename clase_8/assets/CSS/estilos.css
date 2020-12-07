@@ -1,0 +1,355 @@
+html {
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.page {
+	color: #2AFD70;
+	font-weight: bold;
+}
+
+.page2 {
+	color: #000000;
+	font-weight: bold;
+}
+
+body {
+	display: grid;
+	grid-template-areas: 
+	"header header"
+	"section article"
+	"section article"
+	"footer footer";
+
+	grid-template-rows: 10% 35% 35% 20%;
+	grid-template-columns: 60% 40%;
+	margin: 0 auto 0 auto;
+	height: 768px;
+	width: 1024px;
+
+	background-image: linear-gradient(to left, #000000, #2AFD70);
+}
+
+
+header {
+	grid-area: header;
+	display: flex;
+	flex-direction: row;
+	background-color: #000000;
+}
+
+header img {
+	width: 30%;
+	height: 100%;
+	margin:0px;
+}
+
+header nav {
+	width: 70%;
+	height: 100%;
+
+}
+
+header nav ul {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	padding: 0%
+}
+
+header nav ul a {
+	width: 15%;
+	height: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #ffffff;
+	font-family: raleway;
+	font-size: 100%;
+	text-decoration: none;
+	text-align: center;
+	line-height: 80px;
+}
+
+header nav ul a:hover {
+	line-height: 85px;
+	color: #2AFD70;
+}
+
+section {
+	grid-area: section;
+}
+
+article {
+	grid-area: article;
+	background-color: #000000;
+}
+
+article div {
+	width: 80%;
+	height: 100%;
+}
+
+article div h2 {
+	margin: 120px 0px 20px 30px;
+	color: #ffffff;
+	font-family: raleway;
+	font-size: 200%;
+	font-weight: lighter;
+}
+
+article div p {
+	width: 100%;
+	margin: 30px 0px 20px 30px;
+	color: #ffffff;
+	font-family: raleway;
+	line-height: 30px;
+}
+
+footer {
+	grid-area: footer;
+	background-color: #2AFD70;
+	display: flex;
+	flex-wrap: wrap;
+	border: 12px;
+	border-color:#ffffff;
+	width: 984px;
+	height: 116px;
+	margin: 20px auto 0px auto;
+
+}
+
+footer h3 {
+	margin: 0px;
+	width: 30%;
+	height: 50%;
+	line-height: 75px;
+	text-align: center;
+	font-family: raleway;
+	font-size: 110%;
+}
+
+footer nav {
+	width: 70%;
+	height: 50%;
+}
+
+footer nav ul {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	padding: 0%
+}
+
+footer nav ul a {
+	width: 15%;
+	height: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #000000;
+	font-family: raleway;
+	font-size: 80%;
+	text-decoration: none;
+	text-align: center;
+	line-height: 75px;
+}
+
+footer nav ul a:hover {
+	font-weight: bold;
+}
+
+footer h4 {
+	margin: 0px;
+	width: 100%;
+	height:50%;
+	text-align: center;
+	line-height: 50px;
+	font-family: raleway;
+	font-size: 70%;
+}
+
+/* NOSOTROS */
+
+.nosotros {
+	display: grid;
+	grid-template-areas: 
+	"header header"
+	"section article"
+	"section article"
+	"footer footer";
+
+	grid-template-rows: 10% 35% 35% 20%;
+	grid-template-columns: 40% 60%;
+	margin: 0 auto 0 auto;
+	height: 768px;
+	width: 1024px;
+}
+
+.nosotros section {
+	grid-area: section;
+	display: flex;
+	flex-direction: column;
+	background-color: #000000;
+}
+
+.nosotros section div {
+	width: 100%;
+	height: 65%;
+}
+
+.nosotros section .certificados {
+	width: 100%;
+	height: 35%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nosotros section div h2 {
+	margin: 0px 0px 0px 40px;
+	color: #ffffff;
+	line-height: 90px;
+	font-family: raleway;
+	font-size: 200%;
+	font-weight: lighter;
+
+	animation-duration: 2s;
+	animation-name: aparecer;
+	}
+	
+@keyframes aparecer {
+	0% {
+	opacity: 0;
+	color: #2AFD70;
+		}
+	50% {
+		color:#2AFD70;
+	}
+	100% {
+	opacity: 1;
+	color: #ffffff;
+		}
+}
+
+
+.nosotros section div p {
+	margin: 0px;
+	padding: 0px 35px 0px 40px;
+	color: #ffffff;
+	line-height: 32px;
+	font-family: raleway;
+	font-size: 100%;
+	font-weight: lighter;
+}
+
+.certificados img {
+	height: 70px;
+	width: 70px;
+	margin: 40px 10px 0px 10px;
+}
+
+/* SERVICIOS */
+
+.servicios {
+	display: grid;
+	grid-template-areas: 
+	"header header"
+	"section article"
+	"section article"
+	"footer footer";
+
+	grid-template-rows: 10% 35% 35% 20%;
+	grid-template-columns: 30% 70%;
+	margin: 0 auto 0 auto;
+	height: 768px;
+	width: 1024px;
+}
+
+.servicios section {
+	grid-area: section;
+	display: flex;
+	flex-direction: column;
+	background-color: #000000;
+}
+
+.servicios section div {
+	width: 100%;
+	height: 65%;
+}
+
+.servicios section .certificados {
+	width: 100%;
+	height: 35%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.servicios section div h2 {
+	margin: 0px 0px 0px 40px;
+	color: #ffffff;
+	line-height: 90px;
+	font-family: raleway;
+	font-size: 200%;
+	font-weight: lighter;
+
+	animation-duration: 2s;
+	animation-name: aparecer;
+	}
+	
+@keyframes aparecer {
+	0% {
+	opacity: 0;
+	color: #2AFD70;
+	}
+	50% {
+		color:#2AFD70;
+	}
+	100% {
+	opacity: 1;
+	color: #ffffff;
+	}
+}
+
+.servicios section div p {
+	margin: 0px;
+	padding: 0px 35px 0px 40px;
+	color: #ffffff;
+	line-height: 32px;
+	font-family: raleway;
+	font-size: 100%;
+	font-weight: lighter;
+}
+
+.certificados img {
+	height: 70px;
+	width: 70px;
+	margin: 40px 10px 0px 10px;
+}
+
+.servicios article {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.servicios article div {
+	height: 85%;
+	width: 90%;
+	margin: 70px auto 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.servicios article div img {
+	height: 40%;
+	width: 40%;
+	background-color: yellow;
+	margin: 10px 10px 10px 10px;
+}
